@@ -53,5 +53,5 @@ python file_organizer.py
 You can create a standalone executable (.exe)
 
 ```
-pyinstaller --onefile --windowed --icon=your_icon.ico main.py
+pyinstaller --onefile --windowed --name "File Organizer" --clean --icon=icon.ico main.py
 ```
