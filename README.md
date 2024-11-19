@@ -47,3 +47,11 @@ python file_organizer.py
 - "Find Duplicates" to identify potential duplicate files
 - "Show Statistics" to view folder analysis
 - Monitor operations in the activity log
+
+## Creating Executable
+
+You can create a standalone executable (.exe)
+
+```
+pyinstaller --onefile --windowed --icon=your_icon.ico main.py
+```
